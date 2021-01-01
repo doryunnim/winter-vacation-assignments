@@ -1,0 +1,33 @@
+.message{
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius:15px;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.3);
+    height: 100%;
+    margin: 10px auto;
+    padding: 0px 10px 0px 10px;
+    min-height: 60px;
+}
+.message-text{
+    display: block;
+    margin: 0;
+    line-height: 1.8;
+    height: 100%;
+}
+.deUp{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-deUp{
+    vertical-align: middle;
+    margin: 0;
+    display: inline;
+}
+.message-img{
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius:30px;
+}

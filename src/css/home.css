@@ -1,0 +1,122 @@
+.form-home{
+    color:#FFF;
+    font-size:20px;
+}
+.textarea {
+  margin-top: 10px;
+  padding-top: 5px;
+    min-height: 50px;
+    height:100px;
+    overflow: hidden;
+    color:#999;
+    font-weight:bold;
+    font-size:18px;
+    font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+    min-width:50%;
+    width: 100%;
+    max-width: 100%;
+    background:#fff;
+    border-radius:3px;
+    border:none;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+}
+
+.homeBtn,
+.homeBtn::after{
+	transition: all 0.3s;
+}
+
+.homeBtn{
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.homeBtn::before,
+.homeBtn::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+}
+.btn-2:hover {
+    color: #2ecc71;
+    z-index: 1;
+  }
+
+.btn-2::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+  }
+.homeBtn:hover:after {
+  width: 100%;
+  }
+
+label { 
+  display: inline;
+  height: 30px;
+  line-height: 20px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #fdfdfd; 
+  cursor: pointer; 
+  border: 1px solid #ebebeb; 
+  border-bottom-color: #e2e2e2; 
+  border-radius: .25em; 
+  vertical-align: middle;
+}
+
+input[type="file"] { 
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden; 
+  clip:rect(0,0,0,0); 
+  border: 0; 
+}
+.fileAndBtn{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-send{
+  display: inline;
+  vertical-align: middle;
+  margin: 0;
+  width: 100px;
+}
+.btn-logout{
+  margin: 0;
+  float: right;
+  margin-bottom: 25px;
+  font-size: 10px;
+  font-weight: normal;
+  background: gray;
+  border: 0;
+}
+
+.btn-logout::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+  border-radius: 5px;
+  }
+
+.home-img{
+  display: block;
+  margin-top: 10px;
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+}

@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+.form-signin-heading, .sign-toggle{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-put;
+    font-weight: 200;
+}
+.sign-toggle{
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login_box{
+	padding: 100px 0;
+	position: relative;
+    z-index: 2;
+}
+.input{
+    display: block;
+    appearance: none;
+    outline: 0;
+    width: 250px;
+    
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    
+    color: black;
+
+    transition-duration: 0.25s;
+    font-weight: 300;
+
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+.input:focus{
+    background-color: white;
+    width: 300px;    
+}
+
+.btn_sign, .btn_google{
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #53e3a6;
+    border-radius: 3px;
+    width: 280px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    
+}
+
+.btn_google{
+    color: #4285F4;
+    font-size: 15px;
+}
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  display: block;
+  font-weight: bold;
+  margin: 1em auto;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+}
+
+.btn_sgin::after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+  }
+  
+.btn_sgin:hover:after {
+    width: 100%;
+}
